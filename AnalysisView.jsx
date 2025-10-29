@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { getSessions } from "../services/storageService.js";
-import { analyzeStudySessions } from "../services/geminiService.js";
+import { getSessions } from "./services/storageService.js";
+import { analyzeStudySessions } from "./services/geminiService.js";
 
 const IndicatorBar = ({ label, value, colorClass }) => (
     <div>

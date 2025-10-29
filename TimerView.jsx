@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { saveSession } from '../services/storageService.js';
+import { saveSession } from './services/storageService.js';
 import SessionLogModal from './SessionLogModal.jsx';
 import { PlayIcon, PauseIcon, PlusIcon } from './Icons.jsx';
 
