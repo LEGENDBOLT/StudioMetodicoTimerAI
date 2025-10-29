@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { getAllData, importData } from './storageService.js';
-import { resetChat } from './geminiService.js';
+import { getAllData, importData } from '../services/storageService.js';
+import { resetChat } from '../services/geminiService.js';
 
 const API_KEY_STORAGE_KEY = 'focusflow_api_key';
 
