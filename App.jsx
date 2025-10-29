@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import TimerView from './components/TimerView.js';
-import AnalysisView from './components/AnalysisView.js';
-import ChatBotView from './components/ChatBotView.js';
-import SettingsView from './components/SettingsView.js';
-import BottomNav from './components/BottomNav.js';
+import TimerView from './TimerView.jsx';
+import AnalysisView from './AnalysisView.jsx';
+import ChatBotView from './ChatBotView.jsx';
+import SettingsView from './SettingsView.jsx';
+import BottomNav from './BottomNav.jsx';
 
 const App = () => {
   const [currentView, setCurrentView] = useState('timer');
