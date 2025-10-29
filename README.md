@@ -1,0 +1,2 @@
+# StudioMetodicoTimerAI
+Studiare easy
