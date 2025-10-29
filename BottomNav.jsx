@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimerIcon, ChartBarIcon, ChatBubbleLeftRightIcon, Cog6ToothIcon } from './Icons.js';
+import { TimerIcon, ChartBarIcon, ChatBubbleLeftRightIcon, Cog6ToothIcon } from './Icons.jsx';
 
 const BottomNav = ({ currentView, setCurrentView }) => {
   const navItems = [

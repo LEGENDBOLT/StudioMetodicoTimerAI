@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { getChatHistory, saveChatHistory } from '../services/storageService.js';
-import { getChatbotResponse } from '../services/geminiService.js';
-import { PaperAirplaneIcon } from './Icons.js';
+import { getChatHistory, saveChatHistory } from './storageService.js';
+import { getChatbotResponse } from './geminiService.js';
+import { PaperAirplaneIcon } from './Icons.jsx';
 import { marked } from 'marked';
 
 const ChatBotView = () => {
